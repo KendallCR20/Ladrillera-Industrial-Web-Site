@@ -48,5 +48,5 @@ Sitio web desarrollado para mostrar los servicios, información corporativa y pr
 **Kendall Campos Ramírez**
 
 - 💼 Portafolio: https://TU-PORTAFOLIO
-- 🐙 GitHub: https://github.com/TU-USUARIO
+- 🐙 GitHub: https://github.com/KendallCR20
 - 💼 LinkedIn: https://www.linkedin.com/in/kendall-campos-ram%C3%ADrez-b19416268/
