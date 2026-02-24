@@ -8,7 +8,7 @@ Sitio web desarrollado para mostrar los servicios, información corporativa y pr
 
 ## 📸 Vista previa
 
-![Preview del proyecto](./preview.png)
+![Preview del proyecto](./preview.PNG)
 
 ---
 
