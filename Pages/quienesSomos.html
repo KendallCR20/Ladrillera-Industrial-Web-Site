@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/quienesSomos.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Quienes Somos</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/assets/img/logo.svg" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/quienesSomos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/procesoProduccion.html">Proceso de Producción</a>
+                </li>
+                <!-- Dropdown Ladrillos -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ladrillosDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ladrillos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ladrillosDropdown">
+                        <a class="dropdown-item" href="/Ladrillo2Huecos.html">Ladrillo 2 Huecos</a>
+                        <a class="dropdown-item" href="/Ladrillo3Huecos.html">Ladrillo 3 Huecos</a>
+                        <a class="dropdown-item" href="/LadrilloSolido.html">Ladrillo Sólido</a>
+                        <a class="dropdown-item" href="/PolvoLadrillo.html">Polvo de Ladrillo</a>
+                    </div>
+                </li>
+                <!-- Dropdown Tejas -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tejasDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Tejas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="tejasDropdown">
+                        <a class="dropdown-item" href="/TejaColonial.html">Teja Colonial</a>
+                        <a class="dropdown-item" href="/TejaImperial.html">Teja Imperial</a>
+                        <a class="dropdown-item" href="/TejaParaFibrocemento.html">Teja para Fibrocemento</a>
+                        <a class="dropdown-item" href="/TejaPlana.html">Teja Plana</a>
+                    </div>
+                </li>
+                <!-- Dropdown Pisos -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pisosDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pisos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="pisosDropdown">
+                        <a class="dropdown-item" href="/AdoquinTipoHueso.html">Adoquín Tipo Hueso</a>
+                        <a class="dropdown-item" href="/LadrilloSolido.html">Ladrillo Sólido</a>
+                        <a class="dropdown-item" href="/LosetaParaPiso.html">Loseta para Piso</a>
+                    </div>
+                </li>
+                <!-- Dropdown Bloques -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="bloquesDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Bloques
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="bloquesDropdown" id="dropBloques">
+                        <a class="dropdown-item" href="/Block12x20x40.html">Block 12x20x40</a>
+                        <a class="dropdown-item" href="/BlockBS.html">Block BS</a>
+                        <a class="dropdown-item" href="/BlockColmena.html">Block Colmena</a>
+                        <a class="dropdown-item" href="/BlockColumna.html">Block Columna</a>
+                        <a class="dropdown-item" href="/BlockDobleLadrillo.html">Block Doble Ladrillo</a>
+                        <a class="dropdown-item" href="/BlockEstrella.html">Block Estrella</a>
+                        <a class="dropdown-item" href="/BlockPavas.html">Block Pavas</a>
+                        <a class="dropdown-item" href="/BlockBotaAgua.html">Block Bota-Agua</a>
+                    </div>
+                </li>
+                <!-- Dropdown Enchapes -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="enchapesDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Enchapes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="enchapesDropdown">
+                        <a class="dropdown-item" href="/BordePiscinaYGrada.html">Borde Piscina y grada</a>
+                        <a class="dropdown-item" href="/EnchapeEsquinero.html">Enchape Esquinero</a>
+                        <a class="dropdown-item" href="/LosetaEnchape.html">Loseta Enchape</a>
+                        <a class="dropdown-item" href="/MedioLadrillo.html">Medio Ladrillo</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactenos.html">Contáctenos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">¿Quienes somos?</h1>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Historia</h4>
+                        <p class="card-text">La "Ladrillera Industrial Agua Caliente" (LIACSA) es una empresa que ha
+                            logrado ir posicionándose en el mercado costarricense, a lo largo de sus 30 años de
+                            experiencia...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary mt-3" data-toggle="modal"
+                            data-target="#historiaModal">
+                            Saber más
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-center justify-content-center" id="carouselCol">
+                <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item h-100 active">
+                            <img src="/assets/img/077ab55046ce80eaf9a3ddea999597ca_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/71f67488b0857639cee631943a3fc6fa_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/4965657af186b9092c7a96976ffe881c_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/ffee2447b152494b43d9816faaea83c8_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/e31ace2a15a7c70645ad83df9ecd43b0_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/9b2c4b44fb86522964124ed80d03c5e8_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/e2bf3b11df0b872112757f1c2fee6e32_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="/assets/img/233826a67be66a810b23a263230da62e_L.jpg" class="d-block w-100 h-100"
+                                alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Misión -->
+            <div class="col-md-6 mt-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Misión</h4>
+                        <p class="card-text">Constituirse en una empresa innovadora y promotora, que día a día busca
+                            mejorar la calidad de sus productos de comercialización, mediante el constante desarrollo e
+                            investigación en materias primas y procesos...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary mt-3" data-toggle="modal"
+                            data-target="#misionModal">
+                            Saber más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Visión -->
+            <div class="col-md-6 mt-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Visión</h4>
+                        <p class="card-text">Por su accesibilidad a tecnologías más limpias en la fabricación de sus
+                            productos, a base de compuestos naturales, LIACSA busca mantenerse como empresa líder a
+                            nivel nacional, especialmente en la producción...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary mt-3" data-toggle="modal"
+                            data-target="#visionModal">
+                            Saber más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Historia Modal -->
+    <div class="modal fade" id="historiaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Historia de la empresa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    La "Ladrillera Industrial Agua Caliente" (LIACSA) es una empresa que ha logrado ir posicionándose en
+                    el mercado costarricense, a lo largo de sus 30 años de experiencia en la elaboración de productos a
+                    base de arcillas minerales; y mediante el empleo de tecnología italiana; esto, sumado a un proceso
+                    de producción caracterizado por un alto grado de excelencia, hace que nuestros productos no
+                    solamente cumplan con todos los requisitos señalados para el área de la construcción, por el Colegio
+                    de Ingenieros y Arquitectos; sino que, asimismo, resulten los más apropiados para complacer las
+                    aspiraciones estéticas de nuestros clientes; ejemplo de esto es que, a la par de la elaboración de
+                    la teja con su color natural, se confecciona también una variedad de teja ahumada o "tiznada", la
+                    cual brinda un toque de mayor antigüedad a aquellas construcciones que así lo ameritan.
+
+                    Si bien nuestros principales productos han sido el ladrillo y la teja, contamos, asimismo, con gran
+                    variedad de otros productos, a base siempre del mismo material, cuyo uso frecuente se ha venido
+                    incrementando, como los enchapes, losetas, adoquines, bloques y pisos.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visión Modal -->
+    <div class="modal fade" id="visionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Visión de la empresa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Por su accesibilidad a tecnologías más limpias en la fabricación de sus productos, a base de
+                    compuestos naturales, LIACSA busca mantenerse como empresa líder a nivel nacional, especialmente en
+                    la producción de ladrillos y tejas, así como en otra gran variedad de productos para la
+                    construcción; siempre vigilante de que todas las prácticas, en los diferentes sectores de nuestra
+                    empresa, se lleven a cabo dentro de un marco de compromiso y respeto por nuestro entorno vital.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Misión Modal -->
+    <div class="modal fade" id="misionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Misión de la empresa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Constituirse en una empresa innovadora y promotora, que día a día busca mejorar la calidad de sus
+                    productos de comercialización, mediante el constante desarrollo e investigación en materias primas y
+                    procesos, con el fin de superar las expectativas de calidad para la absoluta satisfacción de todos
+                    nuestros clientes.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="footer" class="bg-dark">
+        <div class="container1">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="mailto:info@ladritejas.com>"><ion-icon
+                            name="mail-outline"></ion-icon></a>
+                </li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/ladritejas/?locale=es_LA"><ion-icon
+                            name="logo-facebook"></ion-icon></a></li>
+                <li class="list-inline-item"><a
+                        href="https://www.google.com/maps/place/Ladrillera+Industrial+Agua+Caliente/@9.8241998,-83.9149302,872m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8fa1203fdd4c0547:0x271a87d44e6fc897!8m2!3d9.8241998!4d-83.9123553!16s%2Fg%2F11cs29wkbx?hl=es-ES&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"><ion-icon
+                            name="location-outline"></ion-icon></a></li>
+            </ul>
+            <small>2024 Todos Los Derechos Reservados.</small>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

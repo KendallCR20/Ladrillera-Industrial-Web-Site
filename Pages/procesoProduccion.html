@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/procesoProduccion.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Proceso de Producción</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/assets/img/logo.svg" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/quienesSomos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/procesoProduccion.html">Proceso de Producción</a>
+                </li>
+                <!-- Dropdown Ladrillos -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ladrillosDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ladrillos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ladrillosDropdown">
+                        <a class="dropdown-item" href="/Ladrillo2Huecos.html">Ladrillo 2 Huecos</a>
+                        <a class="dropdown-item" href="/Ladrillo3Huecos.html">Ladrillo 3 Huecos</a>
+                        <a class="dropdown-item" href="/LadrilloSolido.html">Ladrillo Sólido</a>
+                        <a class="dropdown-item" href="/PolvoLadrillo.html">Polvo de Ladrillo</a>
+                    </div>
+                </li>
+                <!-- Dropdown Tejas -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tejasDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Tejas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="tejasDropdown">
+                        <a class="dropdown-item" href="/TejaColonial.html">Teja Colonial</a>
+                        <a class="dropdown-item" href="/TejaImperial.html">Teja Imperial</a>
+                        <a class="dropdown-item" href="/TejaParaFibrocemento.html">Teja para Fibrocemento</a>
+                        <a class="dropdown-item" href="/TejaPlana.html">Teja Plana</a>
+                    </div>
+                </li>
+                <!-- Dropdown Pisos -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pisosDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pisos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="pisosDropdown">
+                        <a class="dropdown-item" href="/AdoquinTipoHueso.html">Adoquín Tipo Hueso</a>
+                        <a class="dropdown-item" href="/LadrilloSolido.html">Ladrillo Sólido</a>
+                        <a class="dropdown-item" href="/LosetaParaPiso.html">Loseta para Piso</a>
+                    </div>
+                </li>
+                <!-- Dropdown Bloques -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="bloquesDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Bloques
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="bloquesDropdown" id="dropBloques">
+                        <a class="dropdown-item" href="/Block12x20x40.html">Block 12x20x40</a>
+                        <a class="dropdown-item" href="/BlockBS.html">Block BS</a>
+                        <a class="dropdown-item" href="/BlockColmena.html">Block Colmena</a>
+                        <a class="dropdown-item" href="/BlockColumna.html">Block Columna</a>
+                        <a class="dropdown-item" href="/BlockDobleLadrillo.html">Block Doble Ladrillo</a>
+                        <a class="dropdown-item" href="/BlockEstrella.html">Block Estrella</a>
+                        <a class="dropdown-item" href="/BlockPavas.html">Block Pavas</a>
+                        <a class="dropdown-item" href="/BlockBotaAgua.html">Block Bota-Agua</a>
+                    </div>
+                </li>
+                <!-- Dropdown Enchapes -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="enchapesDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Enchapes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="enchapesDropdown">
+                        <a class="dropdown-item" href="/BordePiscinaYGrada.html">Borde Piscina y grada</a>
+                        <a class="dropdown-item" href="/EnchapeEsquinero.html">Enchape Esquinero</a>
+                        <a class="dropdown-item" href="/LosetaEnchape.html">Loseta Enchape</a>
+                        <a class="dropdown-item" href="/MedioLadrillo.html">Medio Ladrillo</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactenos.html">Contáctenos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">¿Como fabricamos nuestros productos?</h1>
+
+
+        <div class="accordion" id="processAccordion">
+            <!-- Step 1 -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            1. Extracción:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado">En esta primera fase del proceso es necesario eliminar
+                            una primera capa...</p>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos1.PNG" class="imagenProc" alt="">
+                        <h2>Extracción</h2>
+                        <p class="card-text">A. En esta primera fase del proceso es necesario eliminar una primera capa
+                            de materia
+                            vegetal, que no es apta para la fabricación de la cerámica.</p>
+                        <p class="card-text">B. La materia prima se extrae de la cantera, por medio de la explotación a
+                            cielo abierto, de
+                            minerales no metálicos
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            2. Transformaciones físico-químicas:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado">Se refiere básicamente a ala meteorización que consiste
+                            en someter...</p>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos1.PNG" class="imagenProc" alt="">
+                        <h2>Transformaciones físico-químicas</h2>
+                        <p class="card-text">Se refiere básicamente a ala meteorización que consiste en someter a la
+                            arcilla a la acción de elementos atmosféricos; pues al quedar expuesta al aire libre, el
+                            agua de lluvia la lavará, disolviendo y eliminando sales e impurezas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            3. Preparación de la pasta:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado">Se mezclan los tres elementos principales (arcilla,
+                            desengrasantes y agua)...</p>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos2.PNG" class="imagenProc" alt="">
+                        <h2>Preparación de la pasta</h2>
+                        <p class="card-text">Se mezclan los tres elementos principales (arcilla, desengrasantes y agua).
+                            En este proceso es necesario que se cumplan 4 condiciones:</p>
+                        <p class="card-text">A. Depuración: la pasta no puede tener, nódulos de cal, sales solubles,
+                            etc. que producirían una perturbación en el tratamiento mecánico posterior y provocarían
+                            anormalidades en el secado y la cocción. Además, su acción química causaría disminución de
+                            la calidad del producto fabricado.</p>
+                        <p class="card-text">B. División es necesario reducir el tamaño de los pequeños fragmentos a
+                            polvo por medio de trituración y molido.</p>
+                        <p class="card-text">C. Homogeneidad: la arcilla y el desengrasante deben mezclarse íntimamente
+                            hasta convertirlos en una masa homogénea.</p>
+                        <p class="card-text">D. Humedad: se necesita la cantidad justa de agua que permita un perfecto
+                            mezclado con la arcilla y el desengrasante; mezcla que debe ser apta para resistir los
+                            diversos procesos químicos y físicos a los que será sometida.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFourth">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
+                            4. Moldeado:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado">En nuestro caso en particular se utiliza el moldeado a
+                            máquina...</p>
+                    </h5>
+                </div>
+                <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth"
+                    data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos3.PNG" class="imagenProc" alt="">
+                        <h2>Moldeado</h2>
+                        <p class="card-text">En nuestro caso en particular se utiliza el moldeado a máquina. La mezcla
+                            se somete a un proceso de vacío donde se comprime la pasta, de esta manera se quita todo el
+                            aire que se encuentra en ella, obteniéndose así una mezcla homogénea de humedad uniforme y
+                            con una superficie muy bien terminada (lisa). La entrada de la pasta se regula por medio de
+                            cilindros que, a su vez, perfeccionan el molido de los nódulos de arcilla y pequeñas piedras
+                            que puedan haberse filtrado. El grado de vacío debe ser constante, de tal manera que la
+                            misma cantidad de arcilla que entre sea la que salga. La eliminación del aire en la arcilla
+                            evita la formación de burbujas y poros y, además, añade a la pasta una plasticidad
+                            suplementaria necesaria para el conformado. Dicha plasticidad se debe a una unión intima de
+                            partículas. La cámara de vacío reduce el contenido del agua de la pasta, por lo que esta
+                            sale de la prensa más dura de lo que entro. Los productos de este tipo de pastas, por ser
+                            cocidos son más duros, más impermeables, menos porosos, con texturas más uniformes y
+                            compactas. La resistencia a la compresión aumenta un 10% con respecto a las pastas comunes.
+                            Por lo tanto, se pueden disminuir los espesores de las paredes huecas. Estos productos
+                            tienen mejor conductividad térmica, debido a su menor porosidad.</p>
+                        <p class="card-text">En relación con el secado, que estas piezas sequen más regularmente y más
+                            deprisa, puesto que su capilaridad es menor.</p>
+                        <p class="card-text">En cuanto a la cocción, se cuecen más rápido y a una temperatura
+                            ligeramente inferior a las requeridas para los productos de pastas ordinarias.</p>
+                        <p class="card-text">En conclusión, además de todas las condiciones ventajosas citadas, estos
+                            productos mejoran el aspecto exterior y provocan una enorme reducción de los desperdicios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            5. Secado:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado">Si se aplica energía térmica a la pieza, el agua
+                            saldrá...</p>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos4.PNG" class="imagenSec" alt="">
+                        <h2>Secado</h2>
+                        <p class="card-text">Si se aplica energía térmica a la pieza, el agua saldrá a la superficie y
+                            se transformara en vapor.</p>
+                        <p class="card-text">A. Contracción durante la eliminación del agua se observa que la pasta
+                            disminuye de volumen proporcionalmente al agua eliminada; Por lo que comienzan a formarse
+                            huecos, de dimensiones proporcionales al volumen de dicha agua.</p>
+                        <p class="card-text">B. Evaporación, la evaporación se ve influenciada por la presión de vapor,
+                            la temperatura, las condiciones del aire ambiente, la plasticidad y la forma y dimensiones
+                            de los productos por secar.</p>
+                        <p class="card-text">El agua de la superficie de la pieza se evapora, produciéndose así una
+                            aproximación entre las moléculas de la capa superficial, lo que origina diferencias de
+                            presión. Estas hacen fluir el agua del interior hacia la superficie. Es decir, la diferencia
+                            de humedad entre los puntos de la superficie y del interior es el que hace mover el agua.
+                        </p>
+                        <p class="card-text">Esta diferencia de humedad produce diferencias de contracción que ocasionan
+                            tensiones internas. Si estas son superiores a las tensiones límites de la pieza, producen la
+                            rotura; es por esto que se hace necesario un secado controlado y no brusco.</p>
+                        <p class="card-text">Es necesario que el aire del lugar de secado sea seco, caliente y, además,
+                            que se renueve constantemente.</p>
+                        <p class="card-text">Finalmente, es importante señalar que, para lograr una evaporación
+                            perfecta, es esencial eliminar el vapor de agua producido; ya que el aire tiene una
+                            capacidad limitada para absolverlo, y, de lo contrario, es posible que se produzcan
+                            condensaciones.</p>
+                        <p class="card-text">Secado Artificial:</p>
+                        <p class="card-text">La principal ventaja de este sistema es el secado continuo durante todo el
+                            año; además, se consigue un secado más uniforme y los desperdicios son menores.</p>
+                        <p class="card-text">En los secaderos se introduce aire caliente proceden de los hornos que
+                            luego es eliminado por medio de una chimenea. Durante este proceso es eliminado el 90% de la
+                            humedad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                            6. Cocción:
+                        </button>
+                        <p class="ml-3 my-0" id="textoDecorado"> En esta acción se distinguen tres etapas...</p>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#processAccordion">
+                    <div class="card-body">
+                        <img src="/assets/img/procesos5.PNG" class="imagenProc" alt="">
+                        <h2>Cocción</h2>
+                        <p class="card-text">En esta acción se distinguen tres etapas:</p>
+                        <p class="card-text">a) Calentamiento uniforme</p>
+                        <p class="card-text">b) Cocción</p>
+                        <p class="card-text">c) Enfriamiento.</p>
+                        <p class="card-text">La acción del calor es el fundamento de la industria cerámica, por lo que
+                            su dosificación se realiza de acuerdo con los distintos tipos de arcilla y las
+                            características del producto que se desea obtener. Así el proceso de cocción se realiza a
+                            temperaturas elevadas a una marcha lenta y prudente. Los factores determinantes son el
+                            producto por cocer y el horno. En lo que a este último se refiere, tienen que ser construido
+                            en un sitio suficientemente drenado para borrar todo indicio de humedad; y su bóveda debe
+                            ser tan refractaria que pueda resistir altas temperaturas; así como las frecuentes
+                            expansiones y contracciones.</p>
+                        <p class="card-text">Existen hornos de combustibles líquidos, gaseosos o sólidos.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="mailto:info@ladritejas.com>"><ion-icon
+                            name="mail-outline"></ion-icon></a>
+                </li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/ladritejas/?locale=es_LA"><ion-icon
+                            name="logo-facebook"></ion-icon></a></li>
+                <li class="list-inline-item"><a
+                        href="https://www.google.com/maps/place/Ladrillera+Industrial+Agua+Caliente/@9.8241998,-83.9149302,872m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8fa1203fdd4c0547:0x271a87d44e6fc897!8m2!3d9.8241998!4d-83.9123553!16s%2Fg%2F11cs29wkbx?hl=es-ES&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"><ion-icon
+                            name="location-outline"></ion-icon></a></li>
+            </ul>
+            <small>2024 Todos Los Derechos Reservados.</small>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+    <script src="/JS/acordion.js"></script>
+</body>
+
+</html>

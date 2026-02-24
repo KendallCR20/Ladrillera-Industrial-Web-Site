@@ -1,0 +1,341 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">');
+
+/*Header*/
+.navbar {
+  padding: 15px 30px;
+  background-color: #BF372A !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+  max-height: 100px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-family: 'Verdana', sans-serif;
+  padding: 10px 20px;
+  color: #ffffff !important;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f2 !important;
+  transform: scale(1.05);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+@media (max-width: 991.98px) {
+  #dropBloques {
+    overflow-y: scroll;
+    height: 165px;
+  }
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #333;
+  font-family: "Roboto";
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #730c02;
+  color: #f0f0f2;
+}
+
+/*Responsive header*/
+@media (max-width: 1228px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .dropdown-menu {
+    padding: 5px 0;
+  }
+
+  .dropdown-menu .dropdown-item {
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 8px 15px;
+  }
+
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("https://image.flaticon.com/icons/png/512/1828/1828551.png");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f2 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  flex: 1;
+}
+
+/*Estilo de texto*/
+h1 {
+  color: #a62f14;
+  font-family: "Playfair", Display;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  color: #bf8173;
+  font-family: "Roboto";
+  text-align: left;
+}
+
+h2 {
+  color: #a62f14;
+  font-weight: bold;
+  font-family: "Playfair", Display;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+h5 {
+  color: #a62f14;
+  font-weight: bold;
+  font-family: "Playfair", Display;
+  text-align: left;
+}
+
+h6 {
+  color: #a62f14;
+  font-weight: bold;
+  font-family: "Playfair", Display;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*Cartas de los productos*/
+.zoom {
+  width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.zoom img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover img {
+  transform: scale(1.2);
+}
+
+#imgDif {
+  height: 330px;
+}
+
+#imgBG {
+  height: 330px;
+  object-fit: cover;
+}
+
+#tejaPD {
+  height: 355px;
+}
+
+@media (max-width: 1199.98px) {
+  #tejaPD {
+    height: 300px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #tejaPD {
+    height: 218px;
+  }
+}
+
+#LadriL {
+  height: 300px;
+  object-fit: cover;
+}
+
+#LadriD {
+  height: 300px;
+}
+
+@media (max-width: 991.98px) {
+  .LadrilloTitulo {
+    font-size:26px;
+  }
+}
+
+#Loseta1 {
+  height: 355px;
+  object-fit: cover;
+}
+
+#Loseta2 {
+  height: 355px;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  #Loseta2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .LosetaTitulo {
+    font-size:28px;
+  }
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+  height: 400px;
+  min-height: 400px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: #a62f14;
+  font-family: "Playfair", Display;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#espeTec {
+  width: 100% !important;
+}
+
+.card-body {
+  overflow-y: auto;
+}
+
+.descProductos {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #bf8173;
+  font-family: "Roboto";
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 502px) {
+  .descProductos {
+    font-size: 0.8rem;
+  }
+}
+
+.rendimiento-sublist li {
+  list-style-type: none;
+  align-items: center;
+  margin-top: 2px;
+}
+
+/*Footer*/
+#footer {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #BF372A !important;
+  height: 100px;
+}
+
+#footer a {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.list-inline-item:hover {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Roboto";
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+.list-inline-item:hover {
+  color: #f0f0f2 !important;
+  transform: scale(1.05);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#footer small {
+  color: #ffffff;
+  font-family: 'Verdana', sans-serif;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}

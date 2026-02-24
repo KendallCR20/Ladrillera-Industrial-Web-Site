@@ -1,0 +1,320 @@
+/*Header*/
+.navbar {
+  padding: 15px 30px;
+  background-color: #BF372A !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+  max-height: 100px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-family: 'Verdana', sans-serif;
+  padding: 10px 20px;
+  color: #ffffff !important;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f2 !important;
+  transform: scale(1.05);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+@media (max-width: 991.98px) {
+  #dropBloques {
+    overflow-y: scroll;
+    height: 165px;
+  }
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #333;
+  font-family: "Roboto";
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #730c02;
+  color: #f0f0f2;
+}
+
+/*Responsive header*/
+@media (max-width: 1228px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .dropdown-menu {
+    padding: 5px 0;
+  }
+
+  .dropdown-menu .dropdown-item {
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 8px 15px;
+  }
+
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("https://image.flaticon.com/icons/png/512/1828/1828551.png");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f2 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  flex: 1;
+}
+
+/*Estilo de texto*/
+h1 {
+  color: #a62f14;
+  font-family: "Playfair", Display;
+  font-weight: bold;
+  margin-top: 100px;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  color: #bf8173;
+  font-family: "Roboto";
+  text-align: left;
+}
+
+h2 {
+  color: #a62f14;
+  font-weight: bold;
+  font-family: "Playfair", Display;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h4 {
+  color: #a62f14;
+  font-weight: bold;
+  font-family: "Playfair", Display;
+  margin-bottom: 40px;
+}
+
+#textoDecorado {
+  text-decoration: underline;
+}
+
+/*Proceso de elaboración*/
+
+.accordion .card {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion .btn-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  width: 35%;
+  text-align: left;
+}
+
+.accordion .btn-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.accordion .collapse {
+  padding: 15px;
+}
+
+.card-body p {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.imagenProc {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid #f0f0f2;
+}
+
+.imagenSec {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid #f0f0f2;
+}
+
+.btn {
+  background: linear-gradient(45deg, #4a0701, #730c02, #a61a10);
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #730c02, #a61a10, #bf4f3a);
+  font-family: "Roboto";
+}
+
+@media (max-width: 767.98px) {
+  /* Ajusta el tamaño de las imágenes dentro del acordeón */
+  .imagenProc,
+  .imagenSec {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Centra el contenido del texto dentro de las cards */
+  .card-body p {
+    text-align: justify;
+    font-size: 0.9em; /* Reduce ligeramente el tamaño de fuente */
+  }
+
+  /* Ajusta los títulos y subtítulos del acordeón */
+  h5.mb-0.d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btn.btn-link {
+    font-size: 1em;
+    padding: 0;
+  }
+  #textoDecorado {
+    font-size: 0.9em;
+    margin: 8px 0 0 0;
+  }
+
+  /* Reduce el espacio entre las cards */
+  .card {
+    margin-bottom: 10px;
+  }
+
+  /* Centra el título principal de la página */
+  h1.text-center {
+    padding: 10px;
+  }
+}
+
+/* Para mantener los botones del mismo tamaño y que el texto no se agrupe */
+.card-header button {
+  white-space: nowrap; /* Impide que el texto se divida */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+  padding: 8px 16px;
+}
+
+@media (max-width: 576px) {
+  .card-header button {
+    font-size: 0.9rem; /* Reduce un poco el tamaño de la fuente */
+    padding: 6px 12px; /* Ajusta el padding */
+  }
+}
+
+/*Footer*/
+#footer {
+  text-align: center;
+  background-color: #BF372A !important;
+  height: 100px;
+}
+
+#footer a {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.list-inline-item:hover {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Roboto";
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+.list-inline-item:hover {
+  color: #f0f0f2 !important;
+  transform: scale(1.05);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#footer small {
+  color: #ffffff;
+  font-family: 'Verdana', sans-serif;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}
